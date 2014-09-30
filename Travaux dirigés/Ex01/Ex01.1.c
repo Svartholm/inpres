@@ -1,18 +1,18 @@
+/********************************************************/
+/* Nom      : DOUPAGNE Maxime						    */
+/* Groupe   : 2125										*/
+/* Exercice : Définir une année bissextile				*/
+/********************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
     /**************************
-    *******  Exercice 1 *******
+    ****** Exercice 1.1 *******
     **************************/
-    /* Donnez une annee et determiner si elle est bissextile
-     *
-     * Sont bissextile les annee :
-     * soit divisible par 4 mais non divisible par 100
-     * soit divisible par 400
-     *
-     */
+
     int year;
 
     printf("Entrez une annee : ");
@@ -29,3 +29,10 @@ int main()
 
     return 0;
 }
+
+/*
+ * Sont bissextile les annee :
+ * soit divisible par 4 mais non divisible par 100
+ * soit divisible par 400
+ *
+ */
