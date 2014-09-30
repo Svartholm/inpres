@@ -1,8 +1,10 @@
-/********************************************************/
-/* Nom      : DOUPAGNE Maxime						    */
-/* Groupe   : 2125										*/
-/* Exercice : Définir une année bissextile				*/
-/********************************************************/
+/**********************************************************/
+/**------------------------------------------------------**/
+/** Nom: DOUPAGNE Yoann                                  **/
+/** Groupe: 2125                                         **/
+/** Exercice: Definir si une annee est bissextile ou pas **/
+/**------------------------------------------------------**/
+/**********************************************************/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -31,6 +33,7 @@ int main()
 }
 
 /*
+ *
  * Sont bissextile les annee :
  * soit divisible par 4 mais non divisible par 100
  * soit divisible par 400
